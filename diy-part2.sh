@@ -11,7 +11,7 @@
 #
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.1.1/g' package/base-files/files/bin/config_generate
-sed -i 's/KERNEL_PATCHVER:=5.10/KERNEL_PATCHVER:=5.10/g' ./target/linux/x86/Makefile
+
 
 
 git clone https://github.com/linkease/istore.git package/istore
