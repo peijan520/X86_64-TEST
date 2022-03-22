@@ -49,5 +49,3 @@ git clone https://github.com/riverscn/openwrt-iptvhelper.git package/openwrt-ipt
 #添加smartdns
 git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
-
-git clone https://github.com/openwrt/packages.git package/mariadb
