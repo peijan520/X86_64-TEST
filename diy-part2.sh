@@ -48,8 +48,8 @@ git clone https://github.com/openwrt-develop/luci-theme-atmaterial.git package/l
 
 #git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 
-git https://github.com/peijan520/filebrowser package/filebrowser
-# git https://github.com/immortalwrt-collections/openwrt-filebrowser.git package/openwrt-filebrowser
+git clone https://github.com/peijan520/filebrowser.git package/filebrowser
+# git clone https://github.com/immortalwrt-collections/openwrt-filebrowser.git package/openwrt-filebrowser
 
 #添加额外非必须软件包
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
