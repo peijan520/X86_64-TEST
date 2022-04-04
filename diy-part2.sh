@@ -11,7 +11,7 @@
 #
 
 # 修改openwrt登陆地址,把下面的192.168.2.2修改成你想要的就可以了
-sed -i 's/192.168.1.1/192.168.1.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.10.1/g' package/base-files/files/bin/config_generate
 
 # 修改主机名字，把OpenWrt-123修改你喜欢的就行（不能纯数字或者使用中文）
 # sed -i '/uci commit system/i\uci set system.@system[0].hostname='OpenWrt-123'' package/lean/default-settings/files/zzz-default-settings
@@ -48,13 +48,18 @@ git clone https://github.com/openwrt-develop/luci-theme-atmaterial.git package/l
 
 #git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 
+git clone https://github.com/peijan520/filebrowser.git package/filebrowser
+# git clone https://github.com/immortalwrt-collections/openwrt-filebrowser.git package/openwrt-filebrowser
+
 #添加额外非必须软件包
-# git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
-# git clone https://github.com/vernesong/OpenClash.git package/OpenClash
+git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
+git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 # git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
-# git clone https://github.com/zzsj0928/luci-app-pushbot.git package/luci-app-pushbot
+git clone https://github.com/zzsj0928/luci-app-pushbot.git package/luci-app-pushbot
 # git clone https://github.com/riverscn/openwrt-iptvhelper.git package/openwrt-iptvhelper
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
 #添加smartdns
 git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
+
+
