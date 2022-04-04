@@ -62,6 +62,3 @@ git clone https://github.com/zzsj0928/luci-app-pushbot.git package/luci-app-push
 git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 
-#添加baidupcs-web
-git clone https://github.com/KFERMercer/openwrt-baidupcs-web.git package/baidupcs-web
-git clone https://github.com/KFERMercer/luci-app-baidupcs-web.git package/luci-app-baidupcs-web
