@@ -62,4 +62,4 @@ git clone https://github.com/zzsj0928/luci-app-pushbot.git package/luci-app-push
 git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 
-git clone https://github.com/YiuKi520/helloworld.git package/helloworld
+git clone https://github.com/peijan520/helloworld.git package/helloworld
